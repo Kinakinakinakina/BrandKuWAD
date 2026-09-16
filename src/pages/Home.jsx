@@ -1,10 +1,13 @@
+import Hero from "../components/hero"
+
 const Home = () => {
   return (
-    <div>
-        <h1>Testing</h1>
-    </div>
-  )
-}
+    <section className="min-h-screen flex items-center justify-center">
+      <h1 className="text-2xl font-bold">
+        <Hero/>
+      </h1>
+    </section>
+  );
+};
 
-export default Home
-
+export default Home;
